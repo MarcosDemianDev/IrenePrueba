@@ -2,36 +2,36 @@
   {
     "id": "moñitos-clasicos",
     "category": "moñitos",
-    "image": "./src/assets/images/products/Moñitos.jpeg"
+    "image": "images/products/Moñitos.jpeg"
   },
   {
     "id": "moños",
     "category": "moñitos",
-    "image": "./src/assets/images/products/Moños.jpeg"
+    "image": "images/products/Moños.jpeg"
   },
   {
     "id": "corbatas",
     "category": "moñitos",
-    "image": "./src/assets/images/products/Corbatas.jpeg"
+    "image": "images/products/Corbatas.jpeg"
   },
   {
     "id": "pappardelle-huevo",
     "category": "pappardelle",
-    "image": "./src/assets/images/products/Pappardelle.jpeg"
+    "image": "images/products/Pappardelle.jpeg"
   },
   {
     "id": "pappardelle-espinaca",
     "category": "pappardelle",
-    "image": "./src/assets/images/products/Pappardelle.jpeg"
+    "image": "images/products/Pappardelle.jpeg"
   },
   {
     "id": "dobladitos",
     "category": "dobladitos",
-    "image": "./src/assets/images/products/Pappardelle.jpeg"
+    "image": "images/products/Pappardelle.jpeg"
   },
   {
     "id": "tallarines",
     "category": "tallarines",
-    "image": "./src/assets/images/products/Pappardelle.jpeg"
+    "image": "/images/products/Pappardelle.jpeg"
   }
 ]
