@@ -1,0 +1,115 @@
+.contenedor-history {
+  padding: 95px 0 95px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.history-title {
+  min-width: fit-content;
+  width: 50%;
+  color: var(--golden-yellow);
+  display: flex;
+  font-size: 3rem;
+  font-family: var(--font-titles);
+  justify-content: flex-end;
+  padding-top: 95px;
+  margin-left: 1rem;
+  border-bottom: 1px solid var(--red);
+}
+
+.timeline-cont {
+  border-left: 1px solid var(--red);
+  margin: 0 1rem;
+  padding-bottom: 3rem;
+}
+
+.timeline-cont h4 {
+  font-family: var(--font-titles);
+  font-size: 1.5rem;
+  border-bottom: 1px solid var(--red);
+  width: fit-content;
+  padding: 2rem 0 0 2rem;
+}
+
+@keyframes fadeInFromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(20px); /* Comienza 20px más abajo */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* En su posición final */
+  }
+}
+
+.history-txt {
+  font-family: var(--font-texts);
+  margin: 24px 0 0 5px;
+  opacity: 0;
+  transform: translateY(20px); /* Posición inicial */
+  transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
+}
+
+.txt-effect {
+  opacity: 0;
+  transform: translateY(20px); /* Posición inicial */
+  transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
+}
+
+.txt-effect.visible {
+  animation: fadeInFromBottom 0.8s ease-in-out forwards; /* Activa la animación */
+}
+
+.macerata-irene {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1rem;
+  width: 100%;
+  height: 80%;
+  margin: 2rem 0;
+}
+
+.macerata-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../assets/images/macerata.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  min-height: 80vh;
+  border-radius: 2px;
+}
+
+.macerata-img h4 {
+  font-family: var(--font-titles);
+  font-size: 1.5rem;
+  color: var(--yellow);
+  text-shadow: 0px 0px 7px rgba(175, 175, 175, 0.6);
+  filter: brightness(1);
+}
+
+.macerata-irene p {
+  font-family: var(--font-texts);
+  margin-top: 2rem;
+  padding: .5rem;
+  border-left: 1px solid var(--red);
+}
+
+@media (min-width: 768px) {
+  .macerata-irene {
+    padding: 0 2rem;
+    flex-direction: row;
+  }
+
+  .macerata-img h4 {
+    font-size: 2.5rem;
+  }
+
+  .macerata-irene p {
+    margin-left: 1rem;
+    width: 70%;
+  }
+}

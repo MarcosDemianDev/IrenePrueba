@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+  --yellow-clear: #fdfcf3; /*#fefaee*/
+  --yellow-strong: #f6f2d5;
+  --yellow: #faef99 ;
+  --golden-yellow: #be994ee7;
+  --red: #d32a23;
+  --blue-strong: #00197e;
+  --blue-clear: #044ca8;
+  --light-blue-logo: #0c5499;
+  --orange: #ffa859;
+  --orange-clear: #F18F01;
+  --orange-strong: #dd520b;
+  --brown-clear: #A67F5B;
+  --green: #7DA27D;
+  --gray: #444444;
+  --footer-line: rgba(0,0,0,.15);
+
+  --font-titles: "Italiana", serif;
+  --font-texts: "Poppins", serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  max-width: 100vw;
+  background-color: var(--yellow-clear);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+}
+
+body::before {
+  background-image: 
+    url('/src/assets/images/Moños.svg'),
+    url('/src/assets/images/Moños.svg'),
+    url('/src/assets/images/Moños.svg'),
+    url('/src/assets/images/Moños.svg'),
+    url('/src/assets/images/Moños.svg'); /* Varias instancias del mismo SVG */
+  background-repeat: no-repeat;
+  background-size: 
+    150px, 
+    200px, 
+    100px, 
+    180px, 
+    120px; /* Tamaños aleatorios */
+  background-position: 
+    10% 20%, 
+    50% 60%, 
+    80% 40%, 
+    30% 90%, 
+    70% 10%; /* Posiciones aleatorias */
+  opacity: 0.1; /* Baja opacidad */
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: var(--orange);
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  cursor: pointer;
+  background-color: var(--orange-clear);
+}
+
+a{
+  text-decoration: none;
+}

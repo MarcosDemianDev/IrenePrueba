@@ -1,0 +1,103 @@
+{
+  "navbar": {
+    "home": "Começar",
+    "history": "História",
+    "products": "Produtos"
+  },
+  "home": {
+    "title": "Macarrão Irene feito à mão com ovos frescos, semola de trigo e os melhores suprimentos.",
+    "subtitle": "Nossos produtos",
+    "banner": {
+      "title": "Irene simplesmente ..",
+      "text": "Desde suas primeiras receitas artesanais, nossa paixão pelo macarrão tem sido um legado que é passado de geração em geração. Com respeito pelas técnicas tradicionais e dedicação aos ingredientes mais puros, continuamos a trazer a cada prato o verdadeiro sabor de uma história que nos une.",
+      "button": "Saiba mais"
+    },
+    "products": {
+      "text": "Oferecemos uma variedade de macarrão, ideal para criar qualquer receita. De opções clássicas a especialidades gourmet. <br/>Nosso <i><b>macarrão cuidadosamente trabalhado com ovos</b></i> usando ingredientes frescos e selecionados garante uma textura suave, cor dourada vibrante e sabor incomparável.",
+      "button": "Ver produtos"
+    }
+  },
+  "footer": {
+    "social": "Nossas redes:",
+    "navigate": "Ir para:",
+    "links": {
+      "home": "Começar",
+      "products": "Produtos",
+      "history": "História"
+    },
+    "legal": {
+      "info": "Informação",
+      "notice": "Termos de Uso"
+    }
+  },
+  "products": {
+    "title": "Nossos Produtos",
+    "categories": {
+      "moñitos": "Laços",
+      "pappardelle": "Pappardelle",
+      "dobladitos": "Dobradinhas",
+      "tallarines": "Talharim"
+    },
+    "items": {
+      "moñitos-clasicos": "Laçõezinhos de Ovo",
+      "moños": "Laços de Ovo",
+      "corbatas": "Corbatas de Ovo",
+      "pappardelle-huevo": "Pappardelle de Ovo",
+      "pappardelle-espinaca": "Pappardelle de Espinafre",
+      "dobladitos": "Dobradinhas",
+      "tallarines": "Talharim de Ovo"
+    }
+  },   
+    "history": {
+    "title": "História",
+    "sections": {
+      "1967": {
+        "title": "1967 - Os começos:",
+        "content": "A história da OMARMEN S.A. começa em 1967, quando Don Humberto Omar Menichelli, um imigrante italiano apaixonado pela boa cozinha de sua terra natal, decidiu fundar uma empresa dedicada a massas. Inspirado pelos sabores autênticos da Itália e sua tradição artesanal, Menichelli estabeleceu as bases do que seria uma empresa emblemática no ramo alimentício."
+      },
+      "1979": {
+        "title": "1979 - Um salto para o futuro:",
+        "content": "Com um importante incremento de capital em 1979, a empresa deu uma guinada estratégica e se transformou na OMARMEN Sociedade Anônima. Esta mudança marcou o início de uma nova etapa, consolidando-se na produção de massas secas laminadas com ovo e sêmola, elaboradas sob uma abordagem artesanal. Desde então, têm-se guiado por três princípios fundamentais:<br>● Tecnificação: Melhora constante dos processos de produção.<br>● Excelência em qualidade: Produtos de alta gama que respeitam os padrões mais rigorosos.<br>● Ética comercial: Transparência e compromisso em cada transação."
+      },
+      "1980s": {
+        "title": "Anos 80-90 - Crescimento e expansão:",
+        "content": "Graças ao esforço e à constante capacitação de sua equipe, a OMARMEN S.A. experimentou uma expansão sustentada, ampliando sua presença comercial em diferentes regiões da Argentina. Este crescimento permitiu diversificar tanto seus produtos como seus mercados, obtendo reconhecimento por sua qualidade e confiabilidade."
+      },
+      "supermarkets": {
+        "title": "Setor supermercadista - Uma abordagem estratégica:",
+        "content": "Desde seus inícios, a empresa focou em atender as necessidades do setor supermercadista, desenvolvendo marcas próprias e exclusivas para grandes redes de distribuição. Esta abordagem estratégica incluiu a adaptação de sua estrutura produtiva, comercial e administrativa, posicionando a OMARMEN S.A. como um fornecedor líder no segmento."
+      },
+      "audits": {
+        "title": "Auditorias e confiança - A chave do sucesso:",
+        "content": "A OMARMEN S.A. tem mantido altos padrões de qualidade através de auditorias constantes, tanto internas como externas, realizadas pelos departamentos de controle de qualidade das principais redes de supermercados. Este compromisso com a excelência reforçou sua posição como um parceiro confiável no mercado."
+      },
+      "today": {
+        "title": "Hoje - Um legado em evolução:",
+        "content": "Com mais de cinco décadas de trajetória, a OMARMEN S.A. continua liderando no setor de massas, combinando tradição e tecnologia para oferecer produtos que honram suas raízes italianas. Sua capacidade de adaptação, compromisso com a qualidade e enfoque nas necessidades do cliente a convertem em uma empresa de referência na Argentina e além."
+      },
+      "irene": {
+        "title": "Por que Irene?",
+        "content": "Com mais de cinco décadas de trajetória, a OMARMEN S.A. continua liderando no setor de massas, combinando tradição e tecnologia para oferecer produtos que honram suas raízes italianas. Sua capacidade de adaptação, compromisso com a qualidade e enfoque nas necessidades do cliente a convertem em uma empresa de referência na Argentina e além."
+      }
+    }
+  },
+  "legalNotice": {
+    "title": "AVISO LEGAL – OMARMEN S.A. (MARCA IRENE)",
+    "point1": {
+      "title": "Identificação da Empresa",
+      "content": "Omarmen S.A., inscrita no CNPJ [INSERIR CNPJ], com sede em [ENDEREÇO COMPLETO], é responsável pela marca de massas \"Irene\", incluindo os produtos \"Talharim Irene\", \"Laços de Ovo Irene\" e demais variedades."
+    },
+    "point2": {
+      "title": "Propriedade Intelectual",
+      "content": "Todo o conteúdo deste site (imagens, textos, logotipos) é propriedade exclusiva da Omarmen S.A. A reprodução não autorizada é proibida."
+    },
+    "point3": {
+      "title": "Responsabilidade",
+      "content": "As informações nutricionais e de fabricação dos produtos Irene estão sujeitas a atualizações. Consulte sempre a embalagem física para dados precisos."
+    },
+    "point4": {
+      "title": "Privacidade",
+      "content": "Dados coletados em formulários seguem a Lei Geral de Proteção de Dados (LGPD). Para dúvidas, contate: [E-MAIL OU TELEFONE]."
+    }
+  }
+}

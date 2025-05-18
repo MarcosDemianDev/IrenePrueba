@@ -1,0 +1,149 @@
+/* Estilo del Navbar */
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: transparent;
+  color: #000;
+  padding: 1rem .5rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  transition: .5s;
+}
+
+.nav-logo-container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  background-color: var(--red);
+  width: 150px;
+  height: 150px;
+  padding: 0 2rem 2rem 0;
+  border-radius: 0 0 100% 0;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
+
+.navbar-logo {
+  width: 80px;
+}
+
+/* Menú hamburguesa/cruz */
+.menu-icon {
+  display: flex;
+  cursor: pointer;
+  z-index: 15;
+  margin-right: 12px;
+}
+
+/* Estilo del menú desplegable */
+.navbar-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--yellow-clear);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  transform: translateY(-100%);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.navbar-menu.show {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.navbar-menu li {
+  margin: 1rem;
+}
+
+.navbar-menu a {
+  color: var(--gray);
+  font-family: var(--font-texts);
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar-menu a:hover {
+  color: var(--red);
+}
+
+.lenguage-select{
+  border: none;
+  font-family: var(--font-texts);
+  background-color: transparent;
+}
+
+.lenguage-select:hover{
+  cursor: pointer;
+  color: var(--red);
+}
+
+.opciones{
+  background-color: transparent;
+}
+
+.logout-normal{
+  display: none;
+  visibility: hidden;
+}
+
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .navbar-menu {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    background: none;
+    transform: none;
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .navbar-logo{
+    width: 100px;
+  }
+
+  .nav-logo-container{
+    padding: .5rem 3rem 3rem .5rem;
+    width: 170px;
+    height: 170px;
+  }
+
+  .navbar.hidden {
+    top: -60px; /* Oculta el navbar */
+  }
+  
+  .navbar.visible {
+    top: 0; /* Muestra el navbar */
+  }
+
+  .logout-normal{
+    margin-right: 12px;
+    display: block;
+    visibility: visible;
+  }
+
+  .logout-hiden{
+    display: none;
+    visibility: hidden;
+  }
+}

@@ -1,0 +1,24 @@
+.legal-notice_container {
+    padding: 120px 50px 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.legal-notice_list {
+    width: 80%;
+}
+
+.legal-notice_li {
+    margin: 3rem 0;
+}
+
+.legal-notice_li h2 {
+    font-family: var(--font-titles);
+}
+
+.legal-notice_li p {
+    margin-top: .5rem;
+    color: var(--gray);
+    font-family: var(--font-texts);
+}

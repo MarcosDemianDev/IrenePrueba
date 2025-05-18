@@ -1,0 +1,103 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "history": "Historia",
+    "products": "Productos"
+  },
+  "home": {
+    "title": "Fideos Irene elaborados artesanalmente con huevos frescos, semola de trigo y los mejores insumos.",
+    "subtitle": "Nuestros productos",
+    "banner": {
+      "title": "Simplemente Irene...",
+      "text": "Desde sus primeras recetas artesanales, nuestra pasión por los fideos ha sido un legado que se transmite de generación en generación. Con respeto por las técnicas tradicionales y la dedicación a los ingredientes más puros, seguimos llevando a cada plato el auténtico sabor de una historia que nos une.",
+      "button": "Conocer más"
+    },
+    "products": {
+      "text": "Ofrecemos una variedad de fideos, ideales para elevar cualquier receta. Desde opciones clásicas hasta especialidades gourmet. <br/>Nuestros <i><b>fideos laminados al huevo</b></i> son elaborados cuidadosamente, utilizando ingredientes frescos y seleccionados, lo que garantiza una textura suave, un color dorado vibrante y un sabor inigualable.",
+      "button": "Ver productos"
+    }
+  },
+  "footer": {
+    "social": "Nuestras redes:",
+    "navigate": "Ir a:",
+    "links": {
+      "home": "Inicio",
+      "products": "Productos",
+      "history": "Historia"
+    },
+    "legal": {
+      "info": "Informacion",
+      "notice": "Aviso legal"
+    }
+  },
+  "products": {
+    "title": "Nuestros Productos",
+    "categories": {
+      "moñitos": "Moñitos",
+      "pappardelle": "Pappardelle",
+      "dobladitos": "Dobladitos",
+      "tallarines": "Tallarines"
+    },
+    "items": {
+      "moñitos-clasicos": "Moñitos de Huevo",
+      "moños": "Moños de Huevo",
+      "corbatas": "Corbatas de Huevo",
+      "pappardelle-huevo": "Pappardelle de Huevo",
+      "pappardelle-espinaca": "Pappardelle de Espinaca",
+      "dobladitos": "Dobladitos",
+      "tallarines": "Tallarines de Huevo"
+    }
+  },
+  "history": {
+    "title": "Historia",
+    "sections": {
+      "1967": {
+        "title": "1967 - Los comienzos:",
+        "content": "La historia de OMARMEN S.A. comienza en 1967, cuando Don Humberto Omar Menichelli, un inmigrante italiano apasionado por la buena cocina de su tierra natal, decidió fundar una empresa dedicada a las pastas. Inspirado por los sabores auténticos de Italia y su tradición artesanal, Menichelli sentó las bases de lo que sería una compañía emblemática en el rubro alimenticio."
+      },
+      "1979": {
+        "title": "1979 - Un salto hacia el futuro:",
+        "content": "Con un importante incremento de capital en 1979, la empresa dio un giro estratégico y se transformó en OMARMEN Sociedad Anónima. Este cambio marcó el inicio de una nueva etapa, consolidándose en la producción de pastas secas laminadas al huevo y sémola, elaboradas bajo un enfoque artesanal. Desde entonces, se han guiado por tres principios fundamentales:<br>● Tecnificación: Mejora constante de los procesos de producción.<br>● Excelencia en calidad: Productos de alta gama que respetan los más estrictos estándares.<br>● Ética comercial: Transparencia y compromiso en cada transacción."
+      },
+      "1980s": {
+        "title": "Años 80-90 - Crecimiento y expansión:",
+        "content": "Gracias al esfuerzo y la constante capacitación de su equipo, OMARMEN S.A. experimentó una expansión sostenida, ampliando su presencia comercial en diferentes regiones de Argentina. Este crecimiento permitió diversificar tanto sus productos como sus mercados, logrando reconocimiento por su calidad y confiabilidad."
+      },
+      "supermarkets": {
+        "title": "Sector supermercadista - Un enfoque estratégico:",
+        "content": "Desde sus inicios, la empresa se enfocó en atender las necesidades del sector supermercadista, desarrollando marcas propias y exclusivas para grandes cadenas de distribución. Este enfoque estratégico incluyó la adaptación de su estructura productiva, comercial y administrativa, posicionando a OMARMEN S.A. como un proveedor líder en el segmento."
+      },
+      "audits": {
+        "title": "Auditorías y confianza - La clave del éxito:",
+        "content": "OMARMEN S.A. ha mantenido altos estándares de calidad a través de auditorías constantes, tanto internas como externas, realizadas por los departamentos de control de calidad de las principales cadenas de supermercados. Este compromiso con la excelencia ha reforzado su posición como un socio confiable en el mercado."
+      },
+      "today": {
+        "title": "Hoy - Un legado en evolución:",
+        "content": "Con más de cinco décadas de trayectoria, OMARMEN S.A. continúa liderando en el sector de pastas, combinando tradición y tecnología para ofrecer productos que honran sus raíces italianas. Su capacidad de adaptación, compromiso con la calidad y enfoque en las necesidades del cliente la convierten en una empresa de referencia en Argentina y más allá."
+      },
+      "irene": {
+        "title": "¿Por qué Irene?",
+        "content": "Con más de cinco décadas de trayectoria, OMARMEN S.A. continúa liderando en el sector de pastas, combinando tradición y tecnología para ofrecer productos que honran sus raíces italianas. Su capacidad de adaptación, compromiso con la calidad y enfoque en las necesidades del cliente la convierten en una empresa de referencia en Argentina y más allá."
+      }
+    }
+  },
+  "legalNotice": {
+    "title": "AVISO LEGAL – OMARMEN S.A. (MARCA IRENE)",
+    "point1": {
+      "title": "Identificación de la Empresa",
+      "content": "Omarmen S.A., con RUT/CUIT [NÚMERO], inscrita en [REGISTRO MERCANTIL], y domicilio social en [DIRECCIÓN COMPLETA], es titular de la marca de pastas \"Irene\", incluyendo sus productos \"Tallarines Irene\", \"Moñitos al Huevo Irene\" y demás variedades comerciales."
+    },
+    "point2": {
+      "title": "Propiedad Intelectual e Industrial",
+      "content": "Todos los contenidos de este sitio web (diseños, textos, logotipos, imágenes) son propiedad exclusiva de Omarmen S.A. o están utilizados bajo licencia. Queda prohibida su reproducción sin autorización expresa."
+    },
+    "point3": {
+      "title": "Responsabilidad y Actualizaciones",
+      "content": "La información nutricional y de fabricación de los productos Irene puede variar. Consulte siempre el envase físico para datos vigentes. Omarmen S.A. no se responsabiliza por el uso inadecuado de los productos o por errores tipográficos en este sitio."
+    },
+    "point4": {
+      "title": "Privacidad y Protección de Datos",
+      "content": "Los datos recopilados en formularios cumplen con la Ley General de Protección de Datos (LGPD). Para consultas, contacte: [CORREO ELECTRÓNICO O TELÉFONO]."
+    }
+  }
+}
