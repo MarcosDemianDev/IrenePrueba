@@ -51,8 +51,7 @@ function History() {
           <div className="macerata-img">
             <h4>{translations.history.sections.irene.title}</h4>
           </div>
-          <p className="txt-effect">
-            {translations.history.sections.irene.content}
+          <p className="txt-effect" dangerouslySetInnerHTML={{ __html: translations.history.sections.irene.content }}>
           </p>
         </div>
       </div>

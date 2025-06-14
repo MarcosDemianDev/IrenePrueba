@@ -6,11 +6,15 @@
   },
   "home": {
     "title": "Macarrão Irene feito à mão com ovos frescos, semola de trigo e os melhores suprimentos.",
-    "subtitle": "Nossos produtos",
+    "titleIdentity" : "Nossa Identidade",
+    "titleProducts": "Nossos produtos",
     "banner": {
       "title": "Irene simplesmente ..",
       "text": "Desde suas primeiras receitas artesanais, nossa paixão pelo macarrão tem sido um legado que é passado de geração em geração. Com respeito pelas técnicas tradicionais e dedicação aos ingredientes mais puros, continuamos a trazer a cada prato o verdadeiro sabor de uma história que nos une.",
       "button": "Saiba mais"
+    },
+    "identity": {
+      "text": "Na nossa fábrica, cada massa conta uma história de dedicação e sabor. Usamos <b>ovos frescos</b>, <b>amassamento com rolo</b> e um processo de <b>secagem natural</b> que respeita o tempo da tradição. Essa combinação nos diferencia: não é apenas massa, é o resultado de uma forma única de fazer as coisas, com paciência, técnica e muito ofício."
     },
     "products": {
       "text": "Oferecemos uma variedade de macarrão, ideal para criar qualquer receita. De opções clássicas a especialidades gourmet. <br/>Nosso <i><b>macarrão cuidadosamente trabalhado com ovos</b></i> usando ingredientes frescos e selecionados garante uma textura suave, cor dourada vibrante e sabor incomparável.",
@@ -77,7 +81,7 @@
       },
       "irene": {
         "title": "Por que Irene?",
-        "content": "Com mais de cinco décadas de trajetória, a OMARMEN S.A. continua liderando no setor de massas, combinando tradição e tecnologia para oferecer produtos que honram suas raízes italianas. Sua capacidade de adaptação, compromisso com a qualidade e enfoque nas necessidades do cliente a convertem em uma empresa de referência na Argentina e além."
+        "content": "Na Comune di Macerata, em 11 de maio de 1884, nascia Dom Humberto Ennio Menichelli, no seio de uma típica família italiana da classe trabalhadora, onde o único que abundava era o amor pelo trabalho e pela vida em família. O resto se conseguia com muito esforço e austeridade. <br/> Naquela época, Dona Irene —quem sabe seu sobrenome— mantinha as portas de sua casa abertas para todos os <i>bambini</i> cujos pais, naquele dia, não tinham conseguido o suficiente. Sempre havia algo (quase sempre suas inigualáveis massas) para cada um. Dona Irene também oferecia, além disso, seu sorriso e seu carinho a toda uma comunidade que, de fato, precisava muito deles. <br/> Essa história foi transmitida de geração em geração na família Menichelli, e por isso, quando —já instalados na Argentina— começaram a elaborar e comercializar suas massas artesanais, pensaram em uma homenagem justa e sentida ao escolher, como marca identificadora, seu nome: simplesmente, <b>IRENE!</b>"
       }
     }
   },

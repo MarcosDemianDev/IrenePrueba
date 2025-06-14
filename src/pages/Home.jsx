@@ -3,8 +3,9 @@ import { useLanguage } from '../context/LanguageContext';
 import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import tricolor from '../assets/images/tricolor.webp';
-import paquetes from '../assets/images/paquetes.webp';
+import Hand from '../assets/images/mano.webp';
+import ProductsImg from '../assets/images/tenedor.webp';
+import Roller from '../assets/images/rodillo.webp';
 import '../styles/Home.css';
 
 function Home() {
@@ -30,7 +31,7 @@ function Home() {
         <h1 className='title'>{translations.home.title}</h1>
         <section className='banner-cont block' ref={blockRef}>
           <div className='banner'>
-            <img src={tricolor} alt="fideos-img" />
+            <img src={Hand} alt="fideos-img" />
             <div className='container-title-banner'>
               <h2>{translations.home.banner.title}</h2>
               <p>{translations.home.banner.text}</p>
@@ -41,10 +42,20 @@ function Home() {
           </div>
         </section>
 
-        <h2 className='subtitle'>{translations.home.subtitle}</h2>
-        <section className="products-section-container">
+        <h2 className='subtitle'>{translations.home.titleIdentity}</h2>
+        <section className="section-container">
+          <div className="identity-content-cont">
+            <div className="identity-txt-cont">
+              <p dangerouslySetInnerHTML={{ __html: translations.home.identity.text }}></p>
+            </div>
+            <img src={Roller} alt="Huevos, Harina, Rodillo y Fideos" />
+          </div>
+        </section>
+
+        <h2 className='subtitle'>{translations.home.titleProducts}</h2>
+        <section className="section-container">
           <div className="products-content-cont">
-            <img src={paquetes} alt="Paquetes de fideos" />
+            <img src={ProductsImg} alt="Paquetes de fideos" />
             <div className="products-txt-cont">
               <p dangerouslySetInnerHTML={{ __html: translations.home.products.text }}></p>
               <Link className="btn-products" to={`/${translations.home.products.buttonLink}`}>

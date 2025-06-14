@@ -6,11 +6,15 @@
   },
   "home": {
     "title": "Fideos Irene elaborados artesanalmente con huevos frescos, semola de trigo y los mejores insumos.",
-    "subtitle": "Nuestros productos",
+    "titleIdentity" : "Nuestra Identidad",
+    "titleProducts": "Nuestros productos",
     "banner": {
       "title": "Simplemente Irene...",
       "text": "Desde sus primeras recetas artesanales, nuestra pasión por los fideos ha sido un legado que se transmite de generación en generación. Con respeto por las técnicas tradicionales y la dedicación a los ingredientes más puros, seguimos llevando a cada plato el auténtico sabor de una historia que nos une.",
       "button": "Conocer más"
+    },
+    "identity": {
+      "text": "En nuestra fábrica, cada fideo cuenta una historia de dedicación y sabor. Usamos <b>huevo fresco</b>, <b>amasado a rodillo</b> y un proceso de <b>secado natural</b> que respeta los tiempos de la tradición. Esa combinación nos diferencia: no son simplemente fideos, son el resultado de una manera única de hacer las cosas, con paciencia, técnica y mucho oficio."
     },
     "products": {
       "text": "Ofrecemos una variedad de fideos, ideales para elevar cualquier receta. Desde opciones clásicas hasta especialidades gourmet. <br/>Nuestros <i><b>fideos laminados al huevo</b></i> son elaborados cuidadosamente, utilizando ingredientes frescos y seleccionados, lo que garantiza una textura suave, un color dorado vibrante y un sabor inigualable.",
@@ -77,7 +81,7 @@
       },
       "irene": {
         "title": "¿Por qué Irene?",
-        "content": "Con más de cinco décadas de trayectoria, OMARMEN S.A. continúa liderando en el sector de pastas, combinando tradición y tecnología para ofrecer productos que honran sus raíces italianas. Su capacidad de adaptación, compromiso con la calidad y enfoque en las necesidades del cliente la convierten en una empresa de referencia en Argentina y más allá."
+        "content": "En la Comune di Macerata, el 11 de mayo de 1884, nacía don Humberto Ennio Menichelli, en el seno de una típica familia italiana de clase trabajadora, donde lo único que abundaba era el amor al trabajo y a la vida en familia. El resto se conseguía con mucho esfuerzo y austeridad. <br/> En ese tiempo, doña Irene —quién sabe su apellido— tenía las puertas abiertas de su casa para todos los <i>bambini</i> cuyos padres, ese día, no habían podido conseguir lo suficiente. Siempre había algo (casi siempre sus inigualables pastas) para cada uno. Doña Irene regalaba, además, su sonrisa y su afecto a toda una comunidad, por cierto, necesitada de ella. <br/> Esta historia fue transmitida de generación en generación en la familia Menichelli, motivo por el cual, cuando —una vez instalados en Argentina— comenzaron a elaborar y comercializar sus pastas artesanales, pensaron en un sentido y justo homenaje al elegir, como marca identificatoria, su nombre: simplemente, <b>¡IRENE!</b>"
       }
     }
   },
